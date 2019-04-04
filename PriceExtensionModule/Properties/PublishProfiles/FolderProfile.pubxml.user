@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Workspace\Development\RBH-New\Platform\Modules\RBH.PriceExtensionModule</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CacheManager.Core.dll">
+      <publishTime>02/28/2016 16:29:40</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>11/14/2015 13:35:30</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>11/14/2015 13:35:30</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>11/14/2015 13:35:30</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.pdb">
+      <publishTime>11/14/2015 13:35:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/LinqKit.dll">
+      <publishTime>02/21/2018 18:21:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>05/05/2014 11:25:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>05/05/2014 11:25:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>10/05/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>10/05/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>10/05/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/Omu.ValueInjecter.dll">
+      <publishTime>09/06/2012 22:28:04</publishTime>
+    </File>
+    <File Include="bin/OrganizationExtensionModule.dll">
+      <publishTime>02/25/2019 14:43:25</publishTime>
+    </File>
+    <File Include="bin/OrganizationExtensionModule.pdb">
+      <publishTime>02/25/2019 14:43:25</publishTime>
+    </File>
+    <File Include="bin/PriceExtensionModule.dll">
+      <publishTime>04/03/2019 16:09:29</publishTime>
+    </File>
+    <File Include="bin/PriceExtensionModule.pdb">
+      <publishTime>04/03/2019 16:09:29</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/10/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/VirtoCommerce.CustomerModule.Data.dll">
+      <publishTime>08/03/2018 15:51:28</publishTime>
+    </File>
+    <File Include="bin/VirtoCommerce.Domain.dll">
+      <publishTime>10/18/2018 14:28:34</publishTime>
+    </File>
+    <File Include="bin/VirtoCommerce.Platform.Core.dll">
+      <publishTime>08/13/2018 16:23:10</publishTime>
+    </File>
+    <File Include="bin/VirtoCommerce.Platform.Data.dll">
+      <publishTime>08/13/2018 16:23:16</publishTime>
+    </File>
+    <File Include="bin/VirtoCommerce.PricingModule.Data.dll">
+      <publishTime>01/10/2019 09:07:50</publishTime>
+    </File>
+    <File Include="module.manifest">
+      <publishTime>03/20/2019 11:09:07</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/19/2019 14:21:48</publishTime>
+    </File>
+    <File Include="Scripts/extErpPriceEditor.html">
+      <publishTime>04/02/2019 16:04:29</publishTime>
+    </File>
+    <File Include="Scripts/extErpPriceTitleValidator.html">
+      <publishTime>04/02/2019 16:04:27</publishTime>
+    </File>
+    <File Include="Scripts/extMembers.js">
+      <publishTime>02/25/2019 14:42:28</publishTime>
+    </File>
+    <File Include="Scripts/extPrice.js">
+      <publishTime>04/03/2019 16:08:48</publishTime>
+    </File>
+    <File Include="Scripts/extPriceGridTemplates.html">
+      <publishTime>04/02/2019 15:40:13</publishTime>
+    </File>
+    <File Include="Scripts/extPriceGridTemplates.tpl.html">
+      <publishTime>04/02/2019 15:40:13</publishTime>
+    </File>
+    <File Include="Scripts/extPrices-list.tpl.html">
+      <publishTime>04/03/2019 13:37:29</publishTime>
+    </File>
+    <File Include="Scripts/extPriceUIGridTemplates.html">
+      <publishTime>04/02/2019 16:23:27</publishTime>
+    </File>
+    <File Include="Scripts/extPriceValidationService.js">
+      <publishTime>04/02/2019 15:33:00</publishTime>
+    </File>
+    <File Include="Scripts/GridTemplates/extErpPriceEditor.html">
+      <publishTime>04/02/2019 16:29:24</publishTime>
+    </File>
+    <File Include="Scripts/GridTemplates/extErpPriceTitleValidator.html">
+      <publishTime>04/02/2019 16:29:25</publishTime>
+    </File>
+    <File Include="Scripts/price-list-extension-template.tpl.html">
+      <publishTime>03/26/2019 09:56:22</publishTime>
+    </File>
+    <File Include="Scripts/underscore.js">
+      <publishTime>03/28/2019 17:03:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2019 15:11:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>Price Extension Module</id>
+    <version>1.0.0</version>
+    <platformVersion>2.13.41</platformVersion>
+    <dependencies>
+	    <dependency id="VirtoCommerce.Core" version="2.17.0" />
+	    <dependency id="VirtoCommerce.Pricing" version="2.16.0" />
+    </dependencies>
+
+    <title>Price Extension Module</title>
+    <description>Module to extend the default Price entity.</description>
+    <authors>
+        <author>Ntara</author>        
+    </authors>
+    <owners>
+        <owner>Ntara</owner>
+    </owners>
+    <projectUrl>https://github.com/VirtoCommerce/vc-samples</projectUrl>
+    <iconUrl>Modules/$(VirtoCommerce.Pricing)/Content/logo.png</iconUrl>
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2019 Ntara. All rights reserved</copyright>
+    <tags>price extension</tags>
+
+    <assemblyFile>PriceExtensionModule.dll</assemblyFile>
+    <moduleType>PriceExtensionModule.Module, PriceExtensionModule</moduleType>
+    <!--<styles>
+    <directory virtualPath="$/Content/css" searchPattern="*.css" searchSubdirectories="true" />
+  </styles>-->
+    <scripts>
+        <directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />
+    </scripts>
+
+    <settings>
+
+    </settings>
+
+	<permissions>
+		<group name="Pricing">
+			<permission id="pricing:access" name="Open pricing menu" description=""/>
+			<permission id="pricing:create" name="Create pricing data" description=""/>
+			<permission id="pricing:read" name="View pricing data" description=""/>
+			<permission id="pricing:update" name="Update pricing data" description=""/>
+			<permission id="pricing:delete" name="Delete pricing data" description=""/>
+		</group>
+	</permissions>
+</module>
