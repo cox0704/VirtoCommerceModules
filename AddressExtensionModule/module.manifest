@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>Address Extension Module</id>
+    <version>1.0.0</version>
+    <platformVersion>2.13.41</platformVersion>
+    <dependencies>
+        <dependency id="VirtoCommerce.Core" version="2.17.0" />
+        <dependency id="VirtoCommerce.Customer" version="2.12.0" />
+    </dependencies>
+
+    <title>Address Extension Module</title>
+    <description>Module to extend the default address entity.</description>
+    <authors>
+        <author>Ntara</author>        
+    </authors>
+    <owners>
+        <owner>Ntara</owner>
+    </owners>
+    <projectUrl>https://github.com/VirtoCommerce/vc-samples</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/VirtoCommerce/vc-module-customer/master/VirtoCommerce.CustomerModule.Web/Content/logo.png</iconUrl>
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2019 Ntara. All rights reserved</copyright>
+    <tags>organization extension</tags>
+
+    <assemblyFile>AddressExtensionModule.dll</assemblyFile>
+    <moduleType>AddressExtensionModule.Module, AddressExtensionModule</moduleType>
+    <!--<styles>
+    <directory virtualPath="$/Content/css" searchPattern="*.css" searchSubdirectories="true" />
+  </styles>-->
+    <scripts>
+        <directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />
+    </scripts>
+
+    <settings>
+
+    </settings>
+
+    <permissions>
+
+    </permissions>
+</module>
