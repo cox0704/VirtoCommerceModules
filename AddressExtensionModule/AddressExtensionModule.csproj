@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoCompare, Version=0.3.0.53, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\AutoCompare.0.3.0.53\lib\net452\AutoCompare.dll</HintPath>
+    </Reference>
     <Reference Include="CacheManager.Core, Version=0.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\CacheManager.Core.0.8.0\lib\net45\CacheManager.Core.dll</HintPath>
       <Private>True</Private>
@@ -93,6 +96,10 @@
       <HintPath>packages\valueinjecter.2.3.3\lib\net35\Omu.ValueInjecter.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\StackExchange.Redis.1.2.6\lib\net46\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -112,21 +119,23 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="VirtoCommerce.CustomerModule.Data, Version=2.14.19.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\VirtoCommerce.CustomerModule.Data.2.14.19\lib\net461\VirtoCommerce.CustomerModule.Data.dll</HintPath>
+    <Reference Include="VirtoCommerce.CustomerModule.Data, Version=2.14.21.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\VirtoCommerce.CustomerModule.Data.2.14.21\lib\net461\VirtoCommerce.CustomerModule.Data.dll</HintPath>
     </Reference>
-    <Reference Include="VirtoCommerce.Domain, Version=2.25.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\VirtoCommerce.Domain.2.25.9\lib\net461\VirtoCommerce.Domain.dll</HintPath>
+    <Reference Include="VirtoCommerce.Domain, Version=2.25.17.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\VirtoCommerce.Domain.2.25.17\lib\net461\VirtoCommerce.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="VirtoCommerce.Platform.Core, Version=2.13.35.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\VirtoCommerce.Platform.Core.2.13.35\lib\net461\VirtoCommerce.Platform.Core.dll</HintPath>
+    <Reference Include="VirtoCommerce.Platform.Core, Version=2.13.41.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\VirtoCommerce.Platform.Core.2.13.41\lib\net461\VirtoCommerce.Platform.Core.dll</HintPath>
     </Reference>
-    <Reference Include="VirtoCommerce.Platform.Data, Version=2.13.35.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\VirtoCommerce.Platform.Data.2.13.35\lib\net461\VirtoCommerce.Platform.Data.dll</HintPath>
+    <Reference Include="VirtoCommerce.Platform.Data, Version=2.13.41.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\VirtoCommerce.Platform.Data.2.13.41\lib\net461\VirtoCommerce.Platform.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="module.manifest">
       <SubType>Designer</SubType>
     </Content>
