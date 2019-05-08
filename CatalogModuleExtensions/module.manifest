@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>CatalogModuleExtensions</id>
+    <version>1.0.0</version>
+    <platformVersion>2.13.9</platformVersion>
+
+    <title>CatalogModuleExtensions</title>
+    <description></description>
+    <authors>
+        <author>Bracken</author>
+    </authors>
+
+    <assemblyFile>CatalogModuleExtensions.dll</assemblyFile>
+    <moduleType>CatalogModuleExtensions.Module, CatalogModuleExtensions</moduleType>
+
+   
+</module>
